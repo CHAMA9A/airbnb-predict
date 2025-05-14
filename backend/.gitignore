@@ -1,0 +1,32 @@
+# ── Environnement virtuel
+venv/
+.env/
+*.egg-info/
+
+# ── Fichiers temporaires Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ── Logs & traces
+*.log
+*.tmp
+*.bak
+
+# ── Modèle ML et data lourdes
+*.pkl
+*.joblib
+*.parquet
+*.csv
+data/
+models/
+
+# ── Config / secrets optionnels
+.env.*
+secrets.yaml
+
+# ── Outils IDE
+.idea/
+.vscode/
